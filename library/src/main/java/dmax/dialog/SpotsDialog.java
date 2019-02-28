@@ -134,7 +134,7 @@ public class SpotsDialog extends AlertDialog {
         int progressWidth = getContext().getResources().getDimensionPixelSize(R.dimen.progress_width);
         for (int i = 0; i < spots.length; i++) {
             AnimatedView v = new AnimatedView(getContext());
-            v.setBackgroundResource(R.drawable.dmax_spots_spot);
+            v.setBackgroundResource(R.drawable.ic_chevron_right_black_24dp);
             v.setTarget(progressWidth);
             v.setXFactor(-1f);
             v.setVisibility(View.INVISIBLE);
